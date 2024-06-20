@@ -1,8 +1,7 @@
 
 '''
-Gülnur Uzun, Alper Tanrıkulu
+basis calculation applications and isdigit() function using
 
-Q1
 Write a Python script that calculates and prints the sum and average of the 
 digits in the given string, my_str. (Hint: You can use isdigit() function to 
 check each character of the string.)
