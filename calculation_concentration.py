@@ -1,9 +1,7 @@
 '''
-Gülnur Uzun, Alper Tanrıkulu
+Basic for loop and if conditions using
 
-Q3
-
-(50 points) A scientist is growing two types of bacteria in a flask. Each type of bacteria produces a chemical that is toxic to the other one. Their features are as follows:
+A scientist is growing two types of bacteria in a flask. Each type of bacteria produces a chemical that is toxic to the other one. Their features are as follows:
 One mole of Bacteria X produces 0.41 mole of Bacteria X and 0.5 mole of Toxin X every hour.
 One mole of Bacteria Y produces 0.55 mole of Bacteria Y and one mole of Toxin Y every hour.
 One mole of Toxin X kills 0.5% of Bacteria Y every hour.
@@ -13,7 +11,6 @@ Initial conditions: @ Time = 0 hours : Bacteria X = Bacteria Y = 10 moles, Toxin
 Write a Python script that calculates concentrations of Bacteria X, Bacteria Y, Toxin X and Toxin Y in the flask every hour and report it as:
 (e.g. Hour 5: x moles of Bacteria X, y moles of Bacteria Y, z moles of Toxin X, w moles of Toxin Y.)
 The simulation should stop when the change in concentrations are less than 0.1% (steady state conditions) in an hour or when a maximum of 1000 iterations are done.
-
 
 '''
 
@@ -77,7 +74,7 @@ for i in range(0,max_iteration):
     print("--------------------------------------------------")
     
 '''
-Summary:
+In these applications, summary;
 
 The change in toxins is not calculated in the first round because there are initially 0 moles of toxins present. 
 When the percentage change formula is applied, the denominator becomes 0, making it uncalculable.
